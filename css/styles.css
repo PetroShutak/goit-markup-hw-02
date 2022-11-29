@@ -31,7 +31,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--body_color);
-  /* background-color: var(--body_bgr); */
+  background-color: var(--body_bgr);
 }
 /* -----<Header------- */
 .page-header {
