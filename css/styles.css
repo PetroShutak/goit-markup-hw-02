@@ -1,26 +1,26 @@
 :root {
   --page_header_bgr: #ffffff;
   --body_color: #2e2f42;
-  --body_bgr: #FFFFFF;
+  --body_bgr: #ffffff;
   --logo_head_color: #2e2f42;
   --logo__accent: #4d5ae5;
-  --menu_item_color: #2E2F42;;
+  --menu_item_color: #2e2f42;
   --contacts-links__link_color: #434455;
   --hero_bgr_color: #2e2f42;
   --hero__heading__color: #ffffff;
   --hero__button_color: #ffffff;
   --hero__button_bgr: #4d5ae5;
-  --title_color: #2E2F42;
-  --team_bgr: #F4F4FD;
-  --team_dscr: #FFFFFF;
+  --title_color: #2e2f42;
+  --team_bgr: #f4f4fd;
+  --team_dscr: #ffffff;
   --description_color: #434455;
   --logo_footer_color: #f4f4fd;
-  --menu__link_color: #2e2f42;
+  --menu__link_color: #434455;
   --footer_bgr: #2e2f42;
-  --portfolio_bgr: #FFFFFF;
+  --portfolio_bgr: #ffffff;
   --button_potrfolio_color: #4d5ae5;
   --button_portfolio_bgr: #f4f4fd;
-  --description_footer_color: #E7E9FC;
+  --description_footer_color: #e7e9fc;
 }
 .list {
   list-style: none;
@@ -37,7 +37,7 @@ body {
 .page-header {
   background-color: var(--page_header_bgr);
   /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), */
-    /* 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
+  /* 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 /* ---Logo--- */
 .logo {
@@ -103,23 +103,20 @@ body {
   line-height: 1.19;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background: var(--hero__button_bgr);
+  background-color: var(--hero__button_bgr);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   color: var(--hero__button_color);
 }
 .hero__button:active {
   color: #ffffff;
-  background: #404bbf;
+  background-color: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 .hero__button:hover,
 .hero__button:focus {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 4px;
 }
 
 /* --ADVANTAGE-- */
@@ -136,17 +133,19 @@ body {
   margin: -1px;
 }
 .team {
-  background-color: var(--team_bgr)
+  background-color: var(--team_bgr);
 }
 .team_dscr {
   background-color: var(--team_dscr);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .subtitle {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--description_color);
+  color: var(--title_color);
 }
 .description {
   font-weight: 400;
@@ -163,7 +162,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title_color);
- 
 }
 
 /* ----FOOTER--- */
@@ -182,7 +180,7 @@ body {
   color: #4d5ae5;
 }
 .footer {
-  background: var(--footer_bgr);
+  background-color: var(--footer_bgr);
 }
 .description_footer {
   font-weight: 400;
@@ -199,25 +197,24 @@ body {
 .button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   padding: 8px 16px;
   color: var(--button_potrfolio_color);
-  background: var(--button_portfolio_bgr);
+  background-color: var(--button_portfolio_bgr);
   border: 1px solid #e7e9fc;
-  border-radius: 4px;
   cursor: pointer;
 }
 .button:hover,
 .hero__button:focus {
   color: #ffffff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 .button:active {
   color: #ffffff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
